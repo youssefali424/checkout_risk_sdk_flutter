@@ -1,5 +1,6 @@
 import Flutter
 import UIKit
+import Risk
 
 public class CheckoutRiskSdkPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
