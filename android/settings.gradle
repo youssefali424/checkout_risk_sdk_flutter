@@ -1,0 +1,10 @@
+rootProject.name = 'checkout_risk_sdk'
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url = uri("https://maven.fpregistry.io/releases") }
+    }
+}
